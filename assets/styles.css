@@ -265,35 +265,6 @@ h2 {
   max-width: 760px;
 }
 
-.writing-section {
-  padding: 24px 0;
-  border-top: 1px solid var(--border);
-}
-
-.entry-list {
-  display: grid;
-  gap: 12px;
-  padding: 0;
-  margin: 16px 0 0;
-  list-style: none;
-}
-
-.entry-list li {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 14px 0;
-  border-bottom: 1px solid rgba(222, 218, 210, 0.72);
-}
-
-.entry-list span {
-  flex: 0 0 auto;
-  color: var(--muted);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 14px;
-}
-
 .site-footer {
   padding: 32px 0;
   border-top: 1px solid var(--border);
@@ -342,7 +313,6 @@ h2 {
     padding: 20px;
   }
 
-  .entry-list li,
   .site-footer .container {
     align-items: flex-start;
     flex-direction: column;
