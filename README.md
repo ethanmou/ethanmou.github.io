@@ -2,4 +2,4 @@
 
 Personal academic website for Xingyun Mou.
 
-Website: [https://ethanmou.github.io/personal-website/](https://ethanmou.github.io/personal-website/)
+Website: [https://ethanmou.github.io/](https://ethanmou.github.io/)
