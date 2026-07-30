@@ -133,20 +133,22 @@ a:focus {
 
 .contact-links {
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
 }
 
 .contact-links a {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
   width: fit-content;
+  line-height: 1.35;
 }
 
-.contact-links svg {
-  width: 17px;
-  height: 17px;
-  flex: 0 0 17px;
+.contact-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 1em;
   fill: currentColor;
 }
 
