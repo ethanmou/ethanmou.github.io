@@ -123,8 +123,7 @@ a:focus {
   text-align: center;
 }
 
-.contact-links,
-.quick-links {
+.contact-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 16px;
@@ -137,9 +136,18 @@ a:focus {
   gap: 8px;
 }
 
-.contact-links a,
-.quick-links a {
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   width: fit-content;
+}
+
+.contact-links svg {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+  fill: currentColor;
 }
 
 .intro {
