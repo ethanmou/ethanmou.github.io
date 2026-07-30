@@ -254,6 +254,12 @@ h2 {
   color: #4b4b4b;
 }
 
+.project-link {
+  margin: 18px 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
 .prose {
   max-width: 760px;
 }
