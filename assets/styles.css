@@ -283,10 +283,7 @@ h2 {
 }
 
 .site-footer .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  display: block;
 }
 
 .site-footer p {
@@ -320,11 +317,5 @@ h2 {
 
   .project {
     padding: 20px;
-  }
-
-  .site-footer .container {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 6px;
   }
 }
