@@ -33,25 +33,27 @@
     <section class="project-list" aria-label="Research projects">
       <article class="project">
         <div class="project-heading">
-          <h2>Physical Property Discovery from Motion and World Models</h2>
+          <h2>World Model Inference and 3D Deformation Analysis</h2>
           <p class="project-meta">University of Southern California | Undergraduate Research Assistant | Feb 2026 - Present</p>
         </div>
         <p>
-          At the University of Southern California, I conduct research on extracting
-          object-level physical properties and structural information from motion using
-          the PSI world model and SpelkeNet. My work includes virtual poking experiments
-          in which I specify hold and movement constraints, then analyze the resulting
-          sparse and dense optical flow fields. I also extend ideas from video-based
-          vibrometry to investigate whether PSI-predicted motion under virtual
-          interactions can reveal object stiffness, flexibility, and physical structure.
+          At the University of Southern California, I apply model quantization to the
+          PSI-0.5 world model's 8B-parameter autoregressive Transformer backbone to
+          improve inference efficiency. I built an interactive Gradio virtual poking
+          pipeline that combines monocular depth estimation and sparse motion prompts
+          with PSI-predicted RGB, depth, and dense optical flow. I also reconstruct
+          tracked 3D surface correspondences, estimate local deformation gradients using
+          KNN neighborhood search and weighted least-squares fitting, and compute
+          Green-Lagrange strain and SVD-based principal stretches to characterize local
+          stretch, compression, and deformation anisotropy.
         </p>
         <p class="keywords">
           <span>video world models</span>
-          <span>PSI world model</span>
-          <span>SpelkeNet</span>
-          <span>physical reasoning</span>
-          <span>optical flow</span>
-          <span>visual vibrometry</span>
+          <span>model quantization</span>
+          <span>3D reconstruction</span>
+          <span>deformation analysis</span>
+          <span>Gradio</span>
+          <span>PyTorch</span>
         </p>
         <p class="project-link">
           <a href="https://github.com/ethanmou/psi-demo">GitHub: ethanmou/psi-demo</a>
@@ -60,24 +62,28 @@
 
       <article class="project">
         <div class="project-heading">
-          <h2>Discrete-Event Simulation for Call Center Operations</h2>
-          <p class="project-meta">DSO Summer Scholars | Undergraduate Researcher | May 2026 - August 2026</p>
+          <h2>SNAP Call Center Simulation and Statistical Inference</h2>
+          <p class="project-meta">DSO Summer Scholars | Undergraduate Researcher | May 2026 - Aug 2026</p>
         </div>
         <p>
-          As a DSO Summer Scholar, I developed a Python-based discrete-event simulation
-          to model call center queueing, abandonment, redial behavior, and repeated caller
-          attempts. I built an interactive Streamlit dashboard for parameter sweeps,
-          attempt distribution visualization, and policy sensitivity analysis. I also
-          designed a Monte Carlo evaluation framework to compare operational performance
-          across three call centers and multiple policies.
+          As a DSO Summer Scholar, I developed a Python discrete-event simulator for
+          Missouri SNAP call centers, modeling queueing, caller abandonment, and repeat
+          call attempts. I validated simulation averages against fluid-model predictions
+          across three call-center settings and compared geometric maximum-likelihood
+          estimates with fluid-flow estimates of caller attempt distributions, tracing a
+          mismatch to congestion-estimation bias. A diagnostic queue-length substitution
+          reduced parameter error by approximately 63% in that case. I also built a
+          Streamlit dashboard for reproducible Monte Carlo experiments, parameter sweeps,
+          and scenario comparisons of waiting times, abandonment, and caller outcomes.
         </p>
         <p class="keywords">
           <span>discrete-event simulation</span>
-          <span>Monte Carlo evaluation</span>
+          <span>statistical inference</span>
+          <span>maximum-likelihood estimation</span>
+          <span>Monte Carlo experiments</span>
           <span>operations modeling</span>
           <span>queueing systems</span>
           <span>Streamlit</span>
-          <span>Python</span>
         </p>
         <p class="project-link">
           <a href="https://github.com/ethanmou/snap-stochastic-simulator">GitHub: ethanmou/snap-stochastic-simulator</a>
@@ -86,17 +92,18 @@
 
       <article class="project">
         <div class="project-heading">
-          <h2>Improving Mathematical Reasoning in Large Language Models</h2>
+          <h2>LLM Mathematical Reasoning and Formal Verification</h2>
           <p class="project-meta">Shanghai AI Laboratory | Research Intern | May 2025 - December 2025</p>
         </div>
         <p>
-          At Shanghai AI Laboratory, I worked on improving the mathematical reasoning
-          ability of large language models. I fine-tuned DeepSeek-R1-Distill-Qwen-7B
-          using Chain-of-Thought supervision to improve multi-step mathematical
-          reasoning. I also built and preprocessed large-scale datasets for model
-          pretraining, including data cleaning, normalization, and formatting to support
-          stable training runs, and investigated Lean4-based formal verification as a
-          tool for improving LLM mathematical reasoning capabilities.
+          At Shanghai AI Laboratory, I fine-tuned DeepSeek-R1-Distill-Qwen-7B with
+          chain-of-thought supervision for multi-step mathematical reasoning,
+          incorporating intermediate reasoning steps into supervised training. I built
+          preprocessing workflows for large-scale pretraining datasets, covering data
+          cleaning, normalization, and format standardization to prepare consistent
+          training inputs. I also explored Lean4-based formal verification as an approach
+          to checking mathematical reasoning and improving the reliability of
+          LLM-generated solutions.
         </p>
         <p class="keywords">
           <span>large language models</span>
@@ -111,16 +118,17 @@
 
       <article class="project">
         <div class="project-heading">
-          <h2>Large-Scale Data Processing and Land Cover Change Analysis</h2>
-          <p class="project-meta">University of California Irvine | Undergraduate Research Assistant | November 2022 - November 2023</p>
+          <h2>Long-Term Land Cover Change and Geospatial Analysis</h2>
+          <p class="project-meta">University of California, Irvine | Undergraduate Research Assistant | Nov 2022 - Nov 2023</p>
         </div>
         <p>
-          At the University of California Irvine, I processed and analyzed large-scale
-          datasets, including satellite imagery, geospatial layers, and time-series data,
-          to extract structured features for modeling. I used QGIS and remote sensing
-          data to perform a 30-year land cover change analysis, and I used exploratory
-          data analysis and correlation analysis to identify nonlinear relationships and
-          regional patterns in high-dimensional data.
+          At the University of California, Irvine, I processed satellite imagery,
+          geospatial layers, and time-series data to extract structured features from
+          large-scale datasets for environmental modeling. I conducted a 30-year land
+          cover change analysis using QGIS and remote sensing data to examine long-term
+          spatial change, and used exploratory data analysis and correlation analysis to
+          investigate nonlinear relationships and regional patterns in high-dimensional
+          data.
         </p>
         <p class="keywords">
           <span>large-scale data processing</span>
